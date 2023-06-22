@@ -2,6 +2,10 @@
 
  
  <?php 
+
+ 
+    /*
+
     echo "Hello";
 
     $name = "</br>Dima";
@@ -13,4 +17,15 @@
     $lastName = "someLastName";
     echo "User's Lastname is $lastName";
 
+    */
+
         ?>
+
+<?php
+
+    $userName = "UserName";
+    $userLastName = "UserLastName";
+
+    echo $userName." ".$userLastName;
+
+    ?>
