@@ -25,7 +25,20 @@
 
     $userName = "UserName";
     $userLastName = "UserLastName";
-
     echo $userName." ".$userLastName;
+
+    $x = 30;
+    echo "<p>$x</p>";
+
+    $y = 15;
+
+    $res = $x + $y;
+    echo "<p>$res<p>";
+
+    $bool = true;
+    echo "$bool";
+
+    $variableName = "userName";
+    echo $$variableName ;
 
     ?>
