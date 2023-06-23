@@ -87,10 +87,11 @@ $isUserLogin = true;
 
 echo "<br>";
 
-if($isUserLogin){
+if($isUserLogin && $userAge > 18){
     echo "Good day, ".$someName;
 } else {
     echo "You have to login";
 }
+
 
 ?>
