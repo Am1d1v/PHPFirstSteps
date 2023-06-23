@@ -77,8 +77,6 @@ print_r($years);
 ?>
 
 
-
-
 <?php 
 
 $someName = "Dima";
@@ -91,6 +89,23 @@ if($isUserLogin && $userAge > 18){
     echo "Good day, ".$someName;
 } else {
     echo "You have to login";
+}
+
+
+  ?>
+
+
+
+<?php 
+
+echo "<br>";
+
+for($i = 0; $i < 20; $i++ ){
+   // echo $i." ";
+
+    if(($i % 2) == 1){
+        echo $i." ";
+    }
 }
 
 
