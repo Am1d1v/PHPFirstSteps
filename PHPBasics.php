@@ -125,9 +125,19 @@ for($j = 10; $j >= 0; $j--){
 
     //echo sizeof($colorsArray);
 
+    foreach ($colorsArray as $key => $value){
+        
+       // echo $key;
+          echo $value.", ";
+    }
+
+ /*
+
     for($i = 0; $i < sizeof($colorsArray); $i++){
 
         echo $colorsArray[$i]." ";
     }
+
+    */
 
   ?>
