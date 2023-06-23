@@ -108,5 +108,26 @@ for($i = 0; $i < 20; $i++ ){
     }
 }
 
+echo "<br>";
 
+for($j = 10; $j >= 0; $j--){
+    echo "<p>$j</p>"." ";
+}
 ?>
+
+
+
+<?php 
+
+    echo "<br>";
+
+    $colorsArray = array("black", "white", "grey", "blue", "pink", "violet");
+
+    //echo sizeof($colorsArray);
+
+    for($i = 0; $i < sizeof($colorsArray); $i++){
+
+        echo $colorsArray[$i]." ";
+    }
+
+  ?>
