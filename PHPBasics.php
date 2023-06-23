@@ -141,3 +141,26 @@ for($j = 10; $j >= 0; $j--){
     */
 
   ?>
+
+
+<hr>
+<?php
+
+
+
+
+    echo "<br>";
+
+    print_r($_GET);
+    echo "Hello, " .$_GET["username"];
+
+
+
+?>
+
+<p>Input your name</p>
+<form action="">
+    <input type="text" name = "username">
+    <input type="submit">
+</form>
+
