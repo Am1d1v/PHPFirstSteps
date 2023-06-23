@@ -147,6 +147,8 @@ for($j = 10; $j >= 0; $j--){
 <?php
 
 
+/*
+
 
 
     echo "<br>";
@@ -155,12 +157,55 @@ for($j = 10; $j >= 0; $j--){
     echo "Hello, " .$_GET["username"];
 
 
+    */
 
 ?>
 
 <p>Input your name</p>
-<form action="">
+<form>
     <input type="text" name = "username">
     <input type="submit">
 </form>
 
+<hr>
+
+<?php
+
+
+
+
+    echo "<br>";
+
+    $value = ($_GET)["number"];
+   
+    if($value%2){
+        echo "Number is odd";
+    } else{
+        echo "Number is even";
+    }
+
+
+
+?>
+
+<p>Input number</p>
+<form>
+    <input type="number" name = "number">
+    <input type="submit">
+</form>
+
+
+
+<hr>
+
+<?php
+
+print_r($_POST);
+
+?>
+
+<p>Input </p>
+<form method = "post">
+    <input type="number" name = "inputNumber">
+    <input type="submit">
+</form>
