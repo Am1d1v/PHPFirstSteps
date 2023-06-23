@@ -75,3 +75,22 @@ echo "<br>";
 unset($years["Dima"]);
 print_r($years);
 ?>
+
+
+
+
+<?php 
+
+$someName = "Dima";
+$userAge = 20;
+$isUserLogin = true;
+
+echo "<br>";
+
+if($isUserLogin){
+    echo "Good day, ".$someName;
+} else {
+    echo "You have to login";
+}
+
+?>
